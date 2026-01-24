@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/2-passando-argumentos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3-variaveis" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/4-lendo-dados" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5-estruturas-decisao" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

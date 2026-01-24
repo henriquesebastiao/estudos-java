@@ -109,7 +109,7 @@ float_point --> double
 | char    | 16 bits | 2 bytes         | `\u0000` (ou seja, 0) a `\uffff` (correspondente a 65535) |
 | boolean | 1 bit   | N/A             | true ou false                                             |
 
-### Sequências de escape em Java
+### Sequências de escape
 
 | Sequência de Escape | Descrição                 |
 |---------------------|---------------------------|
@@ -123,3 +123,15 @@ float_point --> double
 | `\\`                | Barra invertida           |
 | `\uXXXX`            | Caractere Unicode         |
 | `\ddd`              | Caractere octal           |
+
+### Operadores aritméticos
+
+| Operador | Descrição      | Exemplo | Resultado           |
+|----------|----------------|---------|---------------------|
+| `+`      | Adição         | `5 + 3` | `8`                 |
+| `-`      | Subtração      | `5 - 3` | `2`                 |
+| `*`      | Multiplicação  | `5 * 3` | `15`                |
+| `/`      | Divisão        | `5 / 2` | `2`                 |
+| `%`      | Módulo (resto) | `5 % 2` | `1`                 |
+| `++`     | Incremento     | `i++`   | Incrementa `i` em 1 |
+| `--`     | Decremento     | `i--`   | Decrementa `i` em 1 |
