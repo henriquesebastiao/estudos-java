@@ -8,5 +8,8 @@ public class TesteCarro {
     van.consumoCombustivel = 0.2;
 
     System.out.println(van.marca);
+    van.exibirAutonomia();
+    System.out.println(van.getAutonomia());
+    System.out.println(van.calculaCombustivel(10));
   }
 }
