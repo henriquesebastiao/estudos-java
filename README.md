@@ -86,12 +86,25 @@ primitivo --> numbers
 numbers --> integer
 numbers --> float_point
 
-integer --> byte["byte\n 8 bits\n 1 byte"]
-integer --> short["short\n 16 bits\n 2 bytes"]
-integer --> int["int\n 32 bits\n 4 bytes"]
-integer --> long["long\n 64 bits\n 8 bytes"]
-integer --> char["long\n 16 bits\n 2 bytes"]
+integer --> byte
+integer --> short
+integer --> int
+integer --> long
+integer --> char
 
-float_point --> float["float\n 32 bits\n 4 bytes"]
-float_point --> double["double\n 64 bits\n 8 bytes"]
+float_point --> float
+float_point --> double
 ```
+
+### Tabela de tipos primitivos, seus tamanhos e valores possíveis
+
+| Tipo    | Tamanho | Tamanho (bytes) | Valores Possíveis                                           |
+|---------|---------|-----------------|-------------------------------------------------------------|
+| byte    | 8 bits  | 1 byte          | -128 a 127                                                  |
+| short   | 16 bits | 2 bytes         | -32.768 a 32.767                                            |
+| int     | 32 bits | 4 bytes         | -2.147.483.648 a 2.147.483.647                              |
+| long    | 64 bits | 8 bytes         | -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807      |
+| float   | 32 bits | 4 bytes         | Até sete casas decimais                                     |
+| double  | 64 bits | 8 bytes         | Até 16 casas decimais                                       |
+| char    | 16 bits | 2 bytes         | **’\u0000’ (ou seja, 0) a ‘\uffff’ (correspondente a 65535) |
+| boolean | 1 bit   | N/A             | true ou false                                               |
