@@ -3,6 +3,7 @@
 ### Observações
 
 - Os nomes de classes seguem o padrão **PascalCase**.
+- Os nomes de variáveis seguem o padrão **camelCase**.
 
 ### Como executar
 
