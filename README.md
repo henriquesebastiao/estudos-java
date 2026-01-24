@@ -2,7 +2,7 @@
 
 ### Observações
 
-- Os nomes de classes seguem o padrão **CamelCase**.
+- Os nomes de classes seguem o padrão **PascalCase**.
 
 ### Como executar
 
