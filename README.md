@@ -108,3 +108,18 @@ float_point --> double
 | double  | 64 bits | 8 bytes         | Até 16 casas decimais                                     |
 | char    | 16 bits | 2 bytes         | `\u0000` (ou seja, 0) a `\uffff` (correspondente a 65535) |
 | boolean | 1 bit   | N/A             | true ou false                                             |
+
+### Sequências de escape em Java
+
+| Sequência de Escape | Descrição                 |
+|---------------------|---------------------------|
+| `\n`                | Nova linha                |
+| `\t`                | Tabulação horizontal      |
+| `\b`                | Backspace                 |
+| `\r`                | Retorno de carro          |
+| `\f`                | Alimentação de formulário |
+| `\'`                | Aspas simples             |
+| `\"`                | Aspas duplas              |
+| `\\`                | Barra invertida           |
+| `\uXXXX`            | Caractere Unicode         |
+| `\ddd`              | Caractere octal           |
