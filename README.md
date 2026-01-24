@@ -70,3 +70,28 @@ class HelloWorld {
 Um compilador Java é um programa que leva arquivos de código-fonte Java (com a extensão `.java`) e os traduz em arquivos Java bytecode (com e extensão `.class`). Bytecode é uma representação intermediária do código-fonte Java que é independente da plataforma. Isso significa que, uma vez que o código-fonte é compilado em bytecode, ele pode ser executado em qualquer sistema com uma JVM compatível.
 
 O compilador Java faz parte do Java Development Kit (JDK). Quando você instala o JDK, você tem acesso ao javaccomando, que é o compilador Java padrão.
+
+### Tipos de dados primitivos em Java
+
+```mermaid
+flowchart
+primitivo["Tipos Primitivos"]
+numbers["Números"]
+integer["Inteiros"]
+float_point["Ponto Flutuante"]
+
+primitivo --> boolean
+primitivo --> numbers
+
+numbers --> integer
+numbers --> float_point
+
+integer --> byte["byte\n 8 bits\n 1 byte"]
+integer --> short["short\n 16 bits\n 2 bytes"]
+integer --> int["int\n 32 bits\n 4 bytes"]
+integer --> long["long\n 64 bits\n 8 bytes"]
+integer --> char["long\n 16 bits\n 2 bytes"]
+
+float_point --> float["float\n 32 bits\n 4 bytes"]
+float_point --> double["double\n 64 bits\n 8 bytes"]
+```
