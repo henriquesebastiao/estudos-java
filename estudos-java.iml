@@ -12,6 +12,10 @@
       <sourceFolder url="file://$MODULE_DIR$/7-for-each" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/8-poo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/9-construtores" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10-modificadores-acesso" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11-encapsulamento" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12-sobrecarga" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13-estatico" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
