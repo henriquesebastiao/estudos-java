@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/12-sobrecarga" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/13-estatico" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/14-recursividade" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15-oo-relacionamento-entre-classes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicios" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
